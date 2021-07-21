@@ -1,16 +1,16 @@
 import streamlit as st
 import pandas as pd
-#from keras.preprocessing.image import load_img
-#from keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import img_to_array
 import numpy as np
 import os
 import cv2
 import pydicom
-#from keras.models import Sequential
-from keras.applications.xception import Xception
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.applications.xception import Xception
 from PIL import Image
-from keras.models import Model, load_model
-from keras.layers import Dense, Flatten, Dropout, GlobalAveragePooling2D
+from tensorflow.keras.models import Model, load_model
+from tensorflow.keras.layers import Dense, Flatten, Dropout, GlobalAveragePooling2D
 import streamlit as st
 import matplotlib.pyplot as plt
 showpred = 0
